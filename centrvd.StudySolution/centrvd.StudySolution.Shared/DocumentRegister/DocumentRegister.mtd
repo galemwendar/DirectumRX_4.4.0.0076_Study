@@ -36,7 +36,9 @@
     }
   ],
   "PublicStructures": [],
-  "ResourcesKeys": [],
+  "ResourcesKeys": [
+    "NumberFormatBusinessUnitId"
+  ],
   "RibbonCardMetadata": {
     "NameGuid": "8ace06ae-5c8c-404c-9aca-54045f7de983",
     "Name": "RibbonCard",
