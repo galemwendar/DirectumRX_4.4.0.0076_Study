@@ -1,0 +1,79 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "0769b547-a23f-46b4-8deb-e286d158f187",
+  "Name": "StudySolution",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "centrvd.StudySolution.Client",
+  "ClientBaseAssemblyName": "centrvd.StudySolution.ClientBase",
+  "ClientBaseNamespace": "centrvd.StudySolution.ClientBase",
+  "ClientNamespace": "centrvd.StudySolution.Client",
+  "Code": "StudySo",
+  "CompanyCode": "centrvd",
+  "Cover": {
+    "NameGuid": "e2985f93-7668-416c-95b9-443e4c941522",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "d1291806-6071-45d7-9649-f238d892fb86",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "e2d004fa-0cf8-49af-ab72-21eb00faef74",
+      "BackgroundPosition": "Stretch"
+    },
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "964a5276-d3ca-47f5-b817-3b61903de6f3"
+    },
+    {
+      "ItemId": "c3620123-bbb1-40e9-912c-d7c8c0808f9f",
+      "PreviousItemId": "964a5276-d3ca-47f5-b817-3b61903de6f3"
+    },
+    {
+      "ItemId": "f92649c9-1ed7-47b2-8b96-af84f3e12b45",
+      "PreviousItemId": "c3620123-bbb1-40e9-912c-d7c8c0808f9f"
+    },
+    {
+      "ItemId": "0c844f7a-cdc1-407f-aeb2-ad5919e8575c",
+      "PreviousItemId": "f92649c9-1ed7-47b2-8b96-af84f3e12b45"
+    },
+    {
+      "ItemId": "ceef9f81-40e8-4a0d-ad5e-88d9cef4d67a",
+      "PreviousItemId": "0c844f7a-cdc1-407f-aeb2-ad5919e8575c"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "centrvd.StudySolution",
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "centrvd.StudySolution",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "centrvd.StudySolution.Server",
+  "ServerNamespace": "centrvd.StudySolution.Server",
+  "SharedAssemblyName": "centrvd.StudySolution.Shared",
+  "SharedNamespace": "centrvd.StudySolution.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
