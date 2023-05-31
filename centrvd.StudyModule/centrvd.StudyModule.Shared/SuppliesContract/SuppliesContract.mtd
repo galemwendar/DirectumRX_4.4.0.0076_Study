@@ -941,10 +941,131 @@
     "NameGuid": "017ee861-23ae-4d42-ac5f-60c131e49a85",
     "Name": "RibbonCard",
     "Categories": [],
-    "Elements": [],
-    "Groups": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "24e245aa-42c3-4f30-9eaa-6dd82b42cfa5",
+        "Name": "ScanDocument",
+        "ActionGuid": "63dc0a6c-df88-4187-810e-db3afe0214c5",
+        "ButtonSize": "Large",
+        "Index": 10,
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "257037fa-7f4a-41dd-9892-fc55d7cf0939"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonStaticDropDownButtonMetadata, Sungero.Metadata",
+        "NameGuid": "b01f672e-94c1-4f69-ada3-b1bc6ad7e5ca",
+        "Name": "DocumentButton",
+        "ButtonSize": "Large",
+        "Index": -1,
+        "LargeIconName": "Ribbon_DocumentButton_large_b01f672e94c14f69ada3b1bc6ad7e5ca.png",
+        "ParentGuid": "b5535ef7-0ea6-4ff2-acb6-d6da3ada1699",
+        "SmallIconName": "Ribbon_DocumentButton_small_b01f672e94c14f69ada3b1bc6ad7e5ca.png"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "6cd420d5-2229-4150-8377-eb8e27039a82",
+        "Name": "ReadButton",
+        "ActionGuid": "570684a1-4b68-463e-a2ee-1546ad9e4596",
+        "Index": 0,
+        "ParentGuid": "b01f672e-94c1-4f69-ada3-b1bc6ad7e5ca"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "7c8229e2-73cb-4f9e-84ab-1c12c966d41a",
+        "Name": "EditButton",
+        "ActionGuid": "dc95c777-e769-40e7-8be3-f7e0fb4168fa",
+        "Index": 1,
+        "ParentGuid": "b01f672e-94c1-4f69-ada3-b1bc6ad7e5ca"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "fa2d0289-820a-423f-96d5-ffa276434f40",
+        "Name": "ChangeButton",
+        "ActionGuid": "51235fd5-4441-48cc-a6f1-3e5af16d5a64",
+        "Index": 2,
+        "ParentGuid": "b01f672e-94c1-4f69-ada3-b1bc6ad7e5ca"
+      }
+    ],
+    "Groups": [
+      {
+        "NameGuid": "2ed94346-ba89-4c52-9815-d18010d3a2ae",
+        "Name": "ServiceGroup",
+        "Index": 32,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57"
+      },
+      {
+        "NameGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4",
+        "Name": "DocumentCommands",
+        "Index": 30,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57"
+      },
+      {
+        "NameGuid": "257037fa-7f4a-41dd-9892-fc55d7cf0939",
+        "Name": "Scan",
+        "Index": 30,
+        "IsAncestorMetadata": true,
+        "IsVisible": false,
+        "Overridden": [
+          "IsVisible"
+        ],
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57"
+      },
+      {
+        "NameGuid": "b5535ef7-0ea6-4ff2-acb6-d6da3ada1699",
+        "Name": "Document",
+        "IconName": null,
+        "Index": 31,
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57",
+        "SmallIconName": null
+      }
+    ],
     "IsAncestorMetadata": true,
-    "Pages": [],
+    "Pages": [
+      {
+        "NameGuid": "3fb1ac9f-a0d9-428e-bf68-2b41267d1b42",
+        "Name": "Sign",
+        "Index": 12,
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "Index"
+        ],
+        "ParentGuid": "ab56c73d-5e95-4014-b359-86c97643f13c"
+      },
+      {
+        "NameGuid": "ce274de5-0251-4b0c-8f8d-0c61cedf5611",
+        "Name": "Send",
+        "Index": 14,
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "Index"
+        ],
+        "ParentGuid": "ab56c73d-5e95-4014-b359-86c97643f13c"
+      },
+      {
+        "NameGuid": "1f08362f-6a13-44cb-9590-5a5b51c85c30",
+        "Name": "Search",
+        "Index": 13,
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "Index"
+        ],
+        "ParentGuid": "ab56c73d-5e95-4014-b359-86c97643f13c"
+      }
+    ],
     "RibbonKind": "Card"
   },
   "RibbonCollectionMetadata": {

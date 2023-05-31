@@ -64,4 +64,16 @@
   <data name="CoverTitle" xml:space="preserve">
     <value>StudyModule</value>
   </data>
+  <data name="CoverTab_SomeTab" xml:space="preserve">
+    <value>SomeTab</value>
+  </data>
+  <data name="CoverGroup_SomeGroup" xml:space="preserve">
+    <value>SomeGroup</value>
+  </data>
+  <data name="CoverAction_GetAllInfos" xml:space="preserve">
+    <value>GetAllInfos</value>
+  </data>
+  <data name="CoverDescription_GetAllInfos" xml:space="preserve">
+    <value>GetAllInfos</value>
+  </data>
 </root>

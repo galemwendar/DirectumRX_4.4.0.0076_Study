@@ -3,6 +3,17 @@
   "NameGuid": "f92649c9-1ed7-47b2-8b96-af84f3e12b45",
   "Name": "DocumentKind",
   "AccessRightsMode": "Both",
+  "Actions": [
+    {
+      "NameGuid": "40975f07-51e4-46d4-80d7-6592cd03f66e",
+      "Name": "SetAccessRights",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    }
+  ],
   "BaseGuid": "14a59623-89a2-4ea8-b6e9-2ad4365f358c",
   "CanBeNavigationPropertyType": true,
   "CreationAreaMetadata": {

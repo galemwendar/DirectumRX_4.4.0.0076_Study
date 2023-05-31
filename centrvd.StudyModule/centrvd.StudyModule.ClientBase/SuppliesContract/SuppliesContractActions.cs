@@ -21,8 +21,8 @@ namespace centrvd.StudyModule.Client
         return;
       }
 
-     var types = centrvd.StudySolution.PublicFunctions.OfficialDocument.GetTypesAviableForChange();
-     var convertedDocument = Sungero.Docflow.PublicFunctions.OfficialDocument.ChangeDocumentType(_obj,types);
+      var types = centrvd.StudySolution.PublicFunctions.OfficialDocument.GetTypesAvailableForChange(_obj);
+      var convertedDocument = centrvd.StudySolution.PublicFunctions.OfficialDocument.ChangeDocumentType(_obj,types);
       if (convertedDocument != null)
       {
         // Dmitriev_IA: Критически важно для корректного открытия в десктоп клиенте карточки сконвертированного документа.
@@ -33,7 +33,7 @@ namespace centrvd.StudyModule.Client
 
     public override bool CanChangeDocumentType(Sungero.Domain.Client.CanExecuteActionArgs e)
     {
-      return  !_obj.State.IsInserted && !_obj.State.IsChanged && _obj.AccessRights.CanUpdate();
+      return  !_obj.State.IsInserted && !_obj.State.IsChanged && _obj.AccessRights.CanUpdate() && _obj.InternalApprovalState == null;
     }
 
     public override void SendForFreeApproval(Sungero.Domain.Client.ExecuteActionArgs e)

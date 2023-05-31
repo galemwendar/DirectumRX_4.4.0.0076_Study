@@ -271,4 +271,16 @@
   <data name="ControlGroup_4568ca49b23d4fedaad438662437b9c5" xml:space="preserve">
     <value>Supplies</value>
   </data>
+  <data name="Ribbon_Document_b5535ef70ea64ff2acb6d6da3ada1699" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="Ribbon_DocumentButton_b01f672e94c14f69ada3b1bc6ad7e5ca" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="Ribbon_DocumentButtonDescription_b01f672e94c14f69ada3b1bc6ad7e5ca" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_DocumentButtonHint_b01f672e94c14f69ada3b1bc6ad7e5ca" xml:space="preserve">
+    <value />
+  </data>
 </root>

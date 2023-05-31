@@ -11,18 +11,38 @@
   "CompanyCode": "centrvd",
   "Cover": {
     "NameGuid": "28b8f32b-d04f-4ca4-b21a-54140e56ca17",
-    "Actions": [],
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "43fc89e0-8716-4e24-84c2-e7b281f20a52",
+        "Name": "GetAllInfos",
+        "FunctionName": "GetAllInfos",
+        "GroupId": "b39b67d5-7d5f-4052-8369-feebc93941ed"
+      }
+    ],
     "Background": null,
     "Footer": {
       "NameGuid": "ded32fba-7352-4b0a-b137-97f079743714",
       "BackgroundPosition": "Stretch"
     },
-    "Groups": [],
+    "Groups": [
+      {
+        "NameGuid": "b39b67d5-7d5f-4052-8369-feebc93941ed",
+        "Name": "SomeGroup",
+        "BackgroundPosition": "Stretch",
+        "TabId": "c4f35dcb-ada9-4b72-b65f-9d22710007e1"
+      }
+    ],
     "Header": {
       "NameGuid": "378bdd62-9582-44b1-9eea-8bffd3238482",
       "BackgroundPosition": "Stretch"
     },
-    "Tabs": []
+    "Tabs": [
+      {
+        "NameGuid": "c4f35dcb-ada9-4b72-b65f-9d22710007e1",
+        "Name": "SomeTab"
+      }
+    ]
   },
   "Dependencies": [
     {

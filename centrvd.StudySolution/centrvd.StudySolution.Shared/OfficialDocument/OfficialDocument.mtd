@@ -51,7 +51,33 @@
   ],
   "PublicFunctions": [
     {
-      "Name": "GetTypesAviableForChange",
+      "Name": "ChangeDocumentType",
+      "Parameters": [
+        {
+          "Name": "officialDocument",
+          "ParameterType": "global::centrvd.StudySolution.IOfficialDocument",
+          "ParameterTypeFullName": "centrvd.StudySolution.IOfficialDocument, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "types",
+          "ParameterType": "global::System.Collections.Generic.List<Sungero.Domain.Shared.IEntityInfo>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "global::Sungero.Docflow.IOfficialDocument",
+      "ReturnTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetTypesAvailableForChange",
+      "Parameters": [
+        {
+          "Name": "officialDocument",
+          "ParameterType": "global::centrvd.StudySolution.IOfficialDocument",
+          "ParameterTypeFullName": "centrvd.StudySolution.IOfficialDocument, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Client",
       "ReturnType": "global::System.Collections.Generic.List<Sungero.Domain.Shared.IEntityInfo>",
       "ReturnTypeFullName": "System.Collections.Generic.List"
     }
