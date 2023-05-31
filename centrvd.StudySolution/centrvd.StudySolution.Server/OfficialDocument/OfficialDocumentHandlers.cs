@@ -22,7 +22,6 @@ namespace centrvd.StudySolution
 
     public override IQueryable<T> DocumentKindFiltering(IQueryable<T> query, Sungero.Domain.PropertyFilteringEventArgs e)
     {   
-      //TODO Да еперный театр, я не хочу просто возвращать нуль если нет НОР
       query = base.DocumentKindFiltering(query, e);
       return query;
     }

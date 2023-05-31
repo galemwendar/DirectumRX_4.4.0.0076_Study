@@ -126,7 +126,7 @@
           "ColumnSpan": 2,
           "GroupType": "WithTitleNoBorder",
           "ParentGuid": "50e703c5-a129-42e9-a1f4-73fffcd224cb",
-          "RowNumber": 7,
+          "RowNumber": 6,
           "RowSpan": 1,
           "SharedNestedGroupsAlignment": true,
           "Versions": []
@@ -358,35 +358,6 @@
           "RowSpan": 1,
           "Settings": [],
           "Versions": []
-        },
-        {
-          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
-          "NameGuid": "97479cd5-4569-4fcd-b3ef-af3a01dd59c2",
-          "Name": "AvailabilityGroupcentrvd",
-          "ColumnNumber": 0,
-          "ColumnSpan": 2,
-          "GroupType": "WithTitleNoBorder",
-          "ParentGuid": "50e703c5-a129-42e9-a1f4-73fffcd224cb",
-          "RowNumber": 6,
-          "RowSpan": 1
-        },
-        {
-          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
-          "NameGuid": "8e07c3e8-1115-4da3-8ada-80adca029f6c",
-          "Name": "BuisnessUnitscentrvdcentrvd",
-          "ColumnNumber": 0,
-          "ColumnSpan": 1,
-          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.MultiSelectFromListEditorToCollectionBinder",
-          "ParentGuid": "97479cd5-4569-4fcd-b3ef-af3a01dd59c2",
-          "PropertyGuid": "25340895-9b4c-45fb-beb6-17cade9a7090",
-          "RowNumber": 0,
-          "RowSpan": 1,
-          "Settings": [
-            {
-              "Name": "NavigationPropertyGuid",
-              "Value": "f9a058ad-d031-42be-b5e4-090bebb3e23e"
-            }
-          ]
         }
       ],
       "IsAncestorMetadata": true,
@@ -414,15 +385,6 @@
         "EntityGuid"
       ],
       "Versions": []
-    },
-    {
-      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
-      "NameGuid": "25340895-9b4c-45fb-beb6-17cade9a7090",
-      "Name": "BuisnessUnitscentrvd",
-      "Code": "DocumentKindBu",
-      "EntityGuid": "b0945687-2239-427b-8a23-b5d0bf5fa35b",
-      "IsShowedInList": false,
-      "PreviousPropertyGuid": "7eca1266-9b95-447b-9886-77d1f63d8228"
     }
   ],
   "PublicStructures": [],

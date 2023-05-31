@@ -136,10 +136,4 @@
   <data name="Resource_d5de8de90c954ca98ef9060b43c1a9ca" xml:space="preserve">
     <value />
   </data>
-  <data name="ControlGroup_97479cd545694fcdb3efaf3a01dd59c2" xml:space="preserve">
-    <value>Доступность</value>
-  </data>
-  <data name="Property_BuisnessUnitscentrvd" xml:space="preserve">
-    <value>Наши организации</value>
-  </data>
 </root>

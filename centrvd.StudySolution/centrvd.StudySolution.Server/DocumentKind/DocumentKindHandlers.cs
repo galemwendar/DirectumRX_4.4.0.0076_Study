@@ -13,7 +13,6 @@ namespace centrvd.StudySolution
     public override void Created(Sungero.Domain.CreatedEventArgs e)
     {
       base.Created(e);
-      //Sungero.Company.BusinessUnits.GetAll().Where( u => u.AccessRights.
     }
   }
 
