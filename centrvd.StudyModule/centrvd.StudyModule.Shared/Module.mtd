@@ -49,6 +49,9 @@
       "PreviousItemId": "f542678b-6ffe-4315-a8de-6d16ae0860dd"
     }
   ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
   "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
@@ -56,6 +59,44 @@
   "IsVisible": false,
   "Overridden": [
     "IsVisible"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "GrantingAcessMemo",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"CD4A7429-993A-4D6F-9E87-AC2BD13E5D57\")"
+    },
+    {
+      "Name": "GrantingAcessMemo",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindNames"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Служебная записка на предоставление доступа\""
+    },
+    {
+      "Name": "MeetingMemo",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"3D4952D6-151F-403D-BEB3-CC684F978869\")"
+    },
+    {
+      "Name": "MeetingMemo",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindNames"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Служебная записка о проведении совещания\""
+    }
   ],
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
