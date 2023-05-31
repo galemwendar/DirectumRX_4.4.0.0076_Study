@@ -49,6 +49,13 @@
       "Versions": []
     }
   ],
+  "PublicFunctions": [
+    {
+      "Name": "GetTypesAviableForChange",
+      "ReturnType": "global::System.Collections.Generic.List<Sungero.Domain.Shared.IEntityInfo>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    }
+  ],
   "PublicStructures": [],
   "ResourcesKeys": [],
   "RibbonCardMetadata": {

@@ -5,6 +5,7 @@
   "AccessRightsMode": "Both",
   "BaseGuid": "2ffa7784-d688-432c-93a8-1e43d7b96002",
   "CanBeNavigationPropertyType": true,
+  "CanBeSearch": true,
   "CreationAreaMetadata": {
     "NameGuid": "a6e37369-efee-41d3-a331-abc1c6ce6823",
     "Name": "CreationArea",
@@ -21,11 +22,14 @@
     "Versions": []
   },
   "IconResourcesKeys": [],
-  "IsAutoCreated": true,
   "OpenCardByDefaultInCollection": true,
   "OperationsClass": "",
   "Overridden": [
-    "IsAutoCreated"
+    "IsAutoCreated",
+    "IsVisible",
+    "CanBeSearch",
+    "HideFromCreationArea",
+    "HideFromNavigationEditorCreationArea"
   ],
   "Properties": [
     {
@@ -60,6 +64,15 @@
         "EntityGuid"
       ],
       "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "637b11fe-a9f8-4305-8d16-be7d37704d60",
+      "Name": "PaymentDiscipline",
+      "Code": "SuppliesLeaseC",
+      "EntityGuid": "5f6e1a47-8705-4a58-9d95-19ac2df6369c",
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "1220def5-3ee9-4123-90ef-5449707a4631"
     }
   ],
   "PublicStructures": [],

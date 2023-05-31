@@ -67,4 +67,7 @@
   <data name="CollectionDisplayName" xml:space="preserve">
     <value>Договоры передачи ресурсов в аренду</value>
   </data>
+  <data name="Property_PaymentDiscipline" xml:space="preserve">
+    <value>Платежная дисциплина</value>
+  </data>
 </root>

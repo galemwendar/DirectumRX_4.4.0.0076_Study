@@ -49,13 +49,53 @@
       "PreviousItemId": "f542678b-6ffe-4315-a8de-6d16ae0860dd"
     }
   ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
   "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "centrvd.StudyModule",
-  "IsVisible": false,
   "Overridden": [
     "IsVisible"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "SuppliesAllocationContract",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"309212B3-0589-4F13-96CD-AACD7A05F9E6\")"
+    },
+    {
+      "Name": "SuppliesAllocationContract",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindNames"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Договор размещения ресурсов\""
+    },
+    {
+      "Name": "SuppliesLeaseContract",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"3DEF197B-A9EE-4A1C-A0BA-B996739C632F\")"
+    },
+    {
+      "Name": "SuppliesLeaseContract",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindNames"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Договор передачи ресурсов в аренду\""
+    }
   ],
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",

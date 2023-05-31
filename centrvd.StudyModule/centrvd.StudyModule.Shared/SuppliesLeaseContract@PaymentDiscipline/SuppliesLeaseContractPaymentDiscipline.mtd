@@ -1,0 +1,67 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "5f6e1a47-8705-4a58-9d95-19ac2df6369c",
+  "Name": "SuppliesLeaseContractPaymentDiscipline",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "SuppliesLeaseC",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "3a7b5cde-96ef-4668-9c10-4c079c713fb8",
+      "Name": "SuppliesLeaseContract",
+      "CanBeSearch": false,
+      "Code": "EDoc",
+      "EntityGuid": "f542678b-6ffe-4315-a8de-6d16ae0860dd",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "0944a977-c674-42b2-8906-1e849989f4c4",
+      "Name": "Planned",
+      "CanBeSearch": false,
+      "Code": "Planned",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "3a7b5cde-96ef-4668-9c10-4c079c713fb8"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "b1a4ab3a-1af4-481f-b8ea-e6451e2782ce",
+      "Name": "Actual",
+      "CanBeSearch": false,
+      "Code": "Actual",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "0944a977-c674-42b2-8906-1e849989f4c4"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "66e8d52d-7403-4517-bb63-7a6f3c7fe8fc",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "7dec20ef-d234-466a-aa47-3c9fe2ba867f",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 11
+    }
+  ]
+}
