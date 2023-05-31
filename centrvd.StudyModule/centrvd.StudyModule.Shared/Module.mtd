@@ -76,6 +76,7 @@
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "centrvd.StudyModule",
+  "IsVisible": false,
   "Overridden": [
     "IsVisible"
   ],
@@ -115,6 +116,42 @@
       ],
       "TypeName": "System.String",
       "Value": "\"Договор передачи ресурсов в аренду\""
+    },
+ {
+      "Name": "GrantingAcessMemo",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"CD4A7429-993A-4D6F-9E87-AC2BD13E5D57\")"
+    },
+    {
+      "Name": "GrantingAcessMemo",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindNames"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Служебная записка на предоставление доступа\""
+    },
+    {
+      "Name": "MeetingMemo",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"3D4952D6-151F-403D-BEB3-CC684F978869\")"
+    },
+    {
+      "Name": "MeetingMemo",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindNames"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Служебная записка о проведении совещания\""
     }
   ],
   "PublicStructures": [],

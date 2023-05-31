@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
@@ -9,5 +9,6 @@ namespace centrvd.StudySolution.Server
 {
   partial class OfficialDocumentFunctions
   {
+
   }
 }
