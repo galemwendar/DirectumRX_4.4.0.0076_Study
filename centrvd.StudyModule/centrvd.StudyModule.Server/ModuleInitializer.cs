@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
@@ -50,7 +50,7 @@ var numerable = Sungero.Docflow.DocumentKind.NumberingType.Numerable;
                                                                               SuppliesLeaseContract.ClassTypeGuid,
                                                                               actions,
                                                                               Constants.Module.DocumentKindGuid.SuppliesLeaseContract,true);
-    }
+    
       //Служебная записка на предоставление доступа.
       Sungero.Docflow.PublicInitializationFunctions.Module.CreateDocumentKind(Constants.Module.DocumentKindNames.GrantingAcessMemo,
                                                                               Constants.Module.DocumentKindNames.GrantingAcessMemoShort,

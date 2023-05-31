@@ -82,42 +82,6 @@
   ],
   "PublicConstants": [
     {
-      "Name": "SuppliesAllocationContract",
-      "ParentClasses": [
-        "Module",
-        "DocumentKindGuid"
-      ],
-      "TypeName": "System.Guid",
-      "Value": "new System.Guid(\"309212B3-0589-4F13-96CD-AACD7A05F9E6\")"
-    },
-    {
-      "Name": "SuppliesAllocationContract",
-      "ParentClasses": [
-        "Module",
-        "DocumentKindNames"
-      ],
-      "TypeName": "System.String",
-      "Value": "\"Договор размещения ресурсов\""
-    },
-    {
-      "Name": "SuppliesLeaseContract",
-      "ParentClasses": [
-        "Module",
-        "DocumentKindGuid"
-      ],
-      "TypeName": "System.Guid",
-      "Value": "new System.Guid(\"3DEF197B-A9EE-4A1C-A0BA-B996739C632F\")"
-    },
-    {
-      "Name": "SuppliesLeaseContract",
-      "ParentClasses": [
-        "Module",
-        "DocumentKindNames"
-      ],
-      "TypeName": "System.String",
-      "Value": "\"Договор передачи ресурсов в аренду\""
-    },
- {
       "Name": "GrantingAcessMemo",
       "ParentClasses": [
         "Module",
@@ -152,6 +116,42 @@
       ],
       "TypeName": "System.String",
       "Value": "\"Служебная записка о проведении совещания\""
+    },
+    {
+      "Name": "SuppliesAllocationContract",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"309212B3-0589-4F13-96CD-AACD7A05F9E6\")"
+    },
+    {
+      "Name": "SuppliesAllocationContract",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindNames"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Договор размещения ресурсов\""
+    },
+    {
+      "Name": "SuppliesLeaseContract",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"3DEF197B-A9EE-4A1C-A0BA-B996739C632F\")"
+    },
+    {
+      "Name": "SuppliesLeaseContract",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindNames"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Договор передачи ресурсов в аренду\""
     }
   ],
   "PublicStructures": [],
