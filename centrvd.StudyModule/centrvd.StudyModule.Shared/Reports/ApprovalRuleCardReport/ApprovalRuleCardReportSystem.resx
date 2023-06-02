@@ -58,10 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="NotificationOfMeetingChangeTitle" xml:space="preserve">
-    <value>Notification of meeting change "{0}"</value>
+  <data name="Description" xml:space="preserve">
+    <value>View scheme and summary information about properties and criteria of the approval rule.</value>
   </data>
-  <data name="MeetingConditionsHaveChangedActiveText" xml:space="preserve">
-    <value>The meeting conditions have changed: {0}. New value: {1}. Previous value: {2}</value>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Approval Rule</value>
   </data>
 </root>

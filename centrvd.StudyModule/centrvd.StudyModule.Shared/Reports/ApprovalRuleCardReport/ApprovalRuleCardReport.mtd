@@ -1,0 +1,139 @@
+{
+  "$type": "Sungero.Metadata.ReportMetadata, Sungero.Reporting.Shared",
+  "NameGuid": "e8247801-64ca-4829-89e1-f544488857bb",
+  "Name": "ApprovalRuleCardReport",
+  "AccessRightsMode": "NoRight",
+  "AssociatedGuid": "ef36fabd-b99e-4861-8dde-b68a5c4637ea",
+  "BaseGuid": "cef9a810-3f30-4eca-9fe3-30992af0b818",
+  "DataSources": [],
+  "DefaultExportFormat": "Pdf",
+  "ExportFormats": [
+    "Pdf"
+  ],
+  "HandledEvents": [
+    "BeforeExecuteServer",
+    "AfterExecuteServer"
+  ],
+  "IconResourcesKeys": [],
+  "Overridden": [
+    "AccessRightsMode",
+    "PublicConstants",
+    "PublicStructures",
+    "ExportFormats",
+    "DefaultExportFormat",
+    "DisplayName",
+    "Description",
+    "Parameters",
+    "HandledEvents"
+  ],
+  "Parameters": [
+    {
+      "NameGuid": "36c2a253-09f7-4cf9-b803-f05499bd2326",
+      "Name": "ApprovalRule",
+      "EntityType": "42a6a084-6828-47d9-95bb-50b0538a6037",
+      "InternalDataTypeName": "Sungero.Docflow.IApprovalRuleBase, Sungero.Domain.Interfaces",
+      "IsRequired": true,
+      "Versions": []
+    },
+    {
+      "NameGuid": "0ba9ac68-826f-4d48-b1ee-10996a4068cc",
+      "Name": "ReportSessionId",
+      "InternalDataTypeName": "System.String",
+      "Versions": []
+    },
+    {
+      "NameGuid": "37612a5b-321b-477a-9f98-c58dde7bf515",
+      "Name": "CurrentDate",
+      "InternalDataTypeName": "System.DateTime",
+      "IsSimpleDataType": true,
+      "Versions": []
+    },
+    {
+      "NameGuid": "37f1e5d6-95a7-4b0a-9c41-e38a199c79cb",
+      "Name": "RuleStatusLocalized",
+      "InternalDataTypeName": "System.String",
+      "Versions": []
+    },
+    {
+      "NameGuid": "b0d1d1a6-9145-4572-8fcf-83be43a88738",
+      "Name": "RuleFlowLocalized",
+      "InternalDataTypeName": "System.String",
+      "Versions": []
+    },
+    {
+      "NameGuid": "f7a6261a-7281-4e72-b5d6-5d7a9cb0f365",
+      "Name": "SignSettHeader",
+      "InternalDataTypeName": "System.String",
+      "Versions": []
+    },
+    {
+      "NameGuid": "918038a8-894f-4509-ad8b-7cfb8d390618",
+      "Name": "SignSettEmpty",
+      "InternalDataTypeName": "System.String",
+      "Versions": []
+    },
+    {
+      "NameGuid": "0de5bde5-76ac-40c3-add0-3180e12aa2c6",
+      "Name": "ReworkPerformer",
+      "InternalDataTypeName": "System.String"
+    },
+    {
+      "NameGuid": "3b95eb3c-af57-4eb2-a627-a2dd824ba814",
+      "Name": "ReworkDeadline",
+      "InternalDataTypeName": "System.String"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [
+    "AllKinds",
+    "Criterion",
+    "All",
+    "RuleVersion",
+    "RulePriority",
+    "RuleDocumentFlow",
+    "RuleAllowSmallApproval",
+    "RuleStatus",
+    "ValueId",
+    "Value",
+    "RuleNote",
+    "If",
+    "ShemaHeader",
+    "StageType",
+    "Performers",
+    "Deadline",
+    "Settings",
+    "Start",
+    "Rework",
+    "NeedStrongSign",
+    "AllowAdditionalApprovers",
+    "AllowSendToRework",
+    "ConfirmSinging",
+    "Subject",
+    "ReslutSubmission",
+    "EmptyString",
+    "SignatureSettingsHeader",
+    "ColumnRecipient",
+    "Priority",
+    "ColumnID",
+    "ColumnBusinessUnitsAndDepartments",
+    "ColumnDocumentKindsAndCategories",
+    "ColumnNote",
+    "ColumnLimits",
+    "ColumnValidTill",
+    "ElseIf",
+    "EndIf",
+    "Stage",
+    "Parameters",
+    "And",
+    "True",
+    "False",
+    "StartDelayDays",
+    "SignatureSettingsEmpty",
+    "ReworkDeadline",
+    "ReworkPerformer",
+    "RuleNeedRestrictInitiatorAccessRights",
+    "AccessRightsForEmployee",
+    "StageAllowApproveWithSuggestions"
+  ],
+  "Versions": []
+}

@@ -58,4 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="NotificationOfMeetingChangeTitle" xml:space="preserve">
+    <value>Уведомление об изменении совещания "{0}"</value>
+  </data>
+  <data name="MeetingConditionsHaveChangedActiveText" xml:space="preserve">
+    <value>Изменились условия совещания: {0}. Новое значение: {1}. Прежнее значение: {2}</value>
+  </data>
 </root>

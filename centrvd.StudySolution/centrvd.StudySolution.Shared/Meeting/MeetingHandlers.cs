@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
@@ -9,6 +9,16 @@ namespace centrvd.StudySolution
 {
   partial class MeetingSharedHandlers
   {
+
+    public override void LocationChanged(Sungero.Domain.Shared.StringPropertyChangedEventArgs e)
+    {
+      base.LocationChanged(e);
+    }
+
+    public override void DateTimeChanged(Sungero.Domain.Shared.DateTimePropertyChangedEventArgs e)
+    {
+      base.DateTimeChanged(e);
+    }
 
   }
 }
