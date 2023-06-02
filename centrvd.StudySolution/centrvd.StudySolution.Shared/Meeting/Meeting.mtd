@@ -20,6 +20,9 @@
     "IsAncestorMetadata": true,
     "Versions": []
   },
+  "HandledEvents": [
+    "WriteHistoryServer"
+  ],
   "IconResourcesKeys": [],
   "LayeredFromGuid": "dbc0dd63-4d23-4f41-92ae-cab59bb70c8c",
   "OperationsClass": "",
@@ -36,8 +39,30 @@
       "Versions": []
     }
   ],
+  "PublicFunctions": [
+    {
+      "Name": "SendNotificationBySimpleTask",
+      "Parameters": [
+        {
+          "Name": "meeting",
+          "ParameterType": "global::centrvd.StudySolution.IMeeting",
+          "ParameterTypeFullName": "centrvd.StudySolution.IMeeting, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "text",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
   "PublicStructures": [],
-  "ResourcesKeys": [],
+  "ResourcesKeys": [
+    "MeetingPropertiesChanged",
+    "MeetingConditionsChanged"
+  ],
   "RibbonCardMetadata": {
     "NameGuid": "886ceb7d-1baa-4c5f-bca9-e90b9710d12f",
     "Name": "RibbonCard",
