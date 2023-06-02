@@ -20,39 +20,10 @@
     "IsAncestorMetadata": true,
     "Versions": []
   },
-  "HandledEvents": [
-    "BeforeSaveServer"
-  ],
   "IconResourcesKeys": [],
   "LayeredFromGuid": "dbc0dd63-4d23-4f41-92ae-cab59bb70c8c",
   "OperationsClass": "",
   "Properties": [
-    {
-      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
-      "NameGuid": "747f994e-7fc2-4f06-8b5f-37362bfd9faa",
-      "Name": "DateTime",
-      "HandledEvents": [
-        "ChangedShared"
-      ],
-      "IsAncestorMetadata": true,
-      "Overridden": [
-        "HandledEvents"
-      ],
-      "Versions": []
-    },
-    {
-      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
-      "NameGuid": "5b1c15f1-c65d-47a5-85c3-b8b588dbdf69",
-      "Name": "Location",
-      "HandledEvents": [
-        "ChangedShared"
-      ],
-      "IsAncestorMetadata": true,
-      "Overridden": [
-        "HandledEvents"
-      ],
-      "Versions": []
-    },
     {
       "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
       "NameGuid": "876c9202-9efd-4a8c-b46b-ce9d132c7230",
@@ -66,10 +37,7 @@
     }
   ],
   "PublicStructures": [],
-  "ResourcesKeys": [
-    "NotificationOfMeetingChangeTitle",
-    "MeetingConditionsHaveChangedActiveText"
-  ],
+  "ResourcesKeys": [],
   "RibbonCardMetadata": {
     "NameGuid": "886ceb7d-1baa-4c5f-bca9-e90b9710d12f",
     "Name": "RibbonCard",
